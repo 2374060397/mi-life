@@ -1,0 +1,16 @@
+.container {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.container .wrapper .main .sticky .sk-item.five,
+.container .wrapper .main .sticky .sk-item.forth,
+.container .wrapper .main .sticky .sk-item.second,
+.container .wrapper .main .sticky .sk-item.third {
+    top: 1000px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
